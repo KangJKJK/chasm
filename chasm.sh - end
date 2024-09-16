@@ -8,7 +8,7 @@ YELLOW='\033[0;33m'
 CYAN='\033[36m'
 NC='\033[0m' # No Color
 
-echo -e "${GREEN}Elixir-v3 노드 설치를 시작합니다.${NC}"
+echo -e "${GREEN}Chasm 노드 설치를 시작합니다.${NC}"
 
 command_exists() {
     command -v "$1" &> /dev/null
